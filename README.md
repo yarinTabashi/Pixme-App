@@ -5,15 +5,13 @@
 PIXME is a social network for events, connecting participants and photographers to easily share and experience event photos together, fostering a sense of community and enriching the event experience for everyone involved.  
 
 
-### The project includes:
+#### The project includes:
 #### ***Android App***
 The Android App is developed using Xamarin (C#) and is intended for standard participants. It allows them to connect and easily share event photos within the PIXME social network.
 
 #### ***Windows App*** 
-The Windows App is designed for professional photographers. It enables them to efficiently share the photos they captured during the events.  
-.  
-.
-![AppLogo](https://i.ibb.co/7VYgzkF/pixme-logo.png)
+The Windows App is designed for professional photographers. It enables them to efficiently share the photos they captured during the events.    
+
 
 ## Skills
 * Xamarin (Cross platform)
@@ -26,14 +24,39 @@ The Windows App is designed for professional photographers. It enables them to e
 I had the opportunity to participate in "MAX" accelerator
 program.
 
-![MaxLogo](https://www.max-impact.org/wp-content/uploads/2022/03/logo-1.svg)
+
+
+<p float="center">
+	  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAA1BMVEX///+nxBvIAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgxUwAAU+n3sIAAAAASUVORK5CYII=" style="width: 20%; display: inline-block;" />
+  <img src="https://www.max-impact.org/wp-content/uploads/2022/03/logo-1.svg" width="16%" />
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAA1BMVEX///+nxBvIAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgxUwAAU+n3sIAAAAASUVORK5CYII=" style="width: 20%; display: inline-block;" />
+  <img src="screenshots/pixme_logo.png" width="25%" />
+</p>
+
+## Screenshots
+<table>
+  <tr>
+    <td>
+      <img src="screenshots/edit_profile.jpg" width="100%" />
+    </td>
+    <td>
+      <img src="screenshots/event_room.jpg" width="100%" />
+    </td>
+    <td>
+      <img src="screenshots/navigation_drawer.jpg" width="100%" />
+    </td>
+			
+  </tr>
+  <tr>
+    <td>
+      <img src="screenshots/photographer.jpg" width="100%" />
+    </td>
+    <td>
+      <img src="screenshots/ya_EventRoom.jpg" width="100%" />
+    </td>
+  </tr>
+</table>
 
 
 ## Feedback
-If you have any feedback, feel free to contact me at yarintabashi@gmail.com or visit the "issues" section for further assistance.
-## Screenshots
-![App Screenshot](https://i.ibb.co/n0vykXK/edit-profile.jpg)
-![App Screenshot](https://i.ibb.co/Wp7d5g0/event-room.jpg)
-![App Screenshot](https://i.ibb.co/wwNgQ2z/navigation-drawer.jpg)
-![App Screenshot](https://i.ibb.co/JnMTXPR/photographer.jpg)
-![App Screenshot](https://i.ibb.co/2sJdkPV/ya-Event-Room.jpg)
+If you have any feedback, feel free to contact [me](https://github.com/yarintabashi) at yarintabashi@gmail.com or visit the "issues" section for further assistance.
