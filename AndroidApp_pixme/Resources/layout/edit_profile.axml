@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:paddingTop="?attr/actionBarSize">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/tool_home_padding"
+            android:paddingLeft="@dimen/tool_home_padding"
+            android:paddingEnd="@dimen/tool_home_padding"
+            android:paddingRight="@dimen/tool_home_padding">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_default="percent"
+                    app:layout_constraintWidth_percent="0.35"
+                    app:srcCompat="@drawable/oval_color_primary" />
+            </android.support.constraint.ConstraintLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="30dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <PixmeApp.MyEditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+					android:textColorHint="#ffffff"
+					android:id="@+id/edit_first_name"
+                    android:text="@string/first_name" />
+
+                <PixmeApp.MyEditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+					android:id="@+id/edit_last_name"
+                    android:text="@string/last_name" />
+            </LinearLayout>
+
+            <PixmeApp.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:id="@+id/edit_username"
+                android:text="@string/edt_user_name" />
+
+            <PixmeApp.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:id="@+id/edit_email_address"
+                android:text="@string/emailaddress" />
+
+            <PixmeApp.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:id="@+id/edit_phone_num"
+                android:text="@string/edt_phone_number" />
+
+            <PixmeApp.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:id="@+id/edit_current_password"
+                android:text="@string/current_password" />
+
+            <PixmeApp.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:id="@+id/edit_new_password"
+                android:text="@string/new_password" />
+
+            <PixmeApp.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:id="@+id/edit_re_password"
+                android:text="@string/c_password" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="30dp" />
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_default="percent"
+                    app:layout_constraintWidth_percent="0.50"
+					android:id="@+id/save_changes_edit"
+                    app:srcCompat="@drawable/ic_save_changes" />
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

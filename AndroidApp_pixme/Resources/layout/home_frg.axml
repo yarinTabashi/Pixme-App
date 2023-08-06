@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/ic_background">
+
+	<LinearLayout
+		android:gravity="center_horizontal"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginTop="30dp">
+	
+
+	    <TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="Hello"
+			android:textAllCaps="false"
+			android:id="@+id/hello_name_txt"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:textColor="@android:color/white"
+			android:textStyle="bold" />
+
+	    <TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="@string/no_live_events_explain"			
+			android:textAllCaps="false"
+			android:id="@+id/no_live_txt"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:textColor="@android:color/white"
+			android:textStyle="bold"
+			android:layout_marginTop="40dp"/>
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+			android:id="@+id/create_new_event_btn"
+            app:srcCompat="@drawable/ic_signin_white"
+			android:layout_marginTop="100dp"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+			android:id="@+id/see_plan_events_btn"
+            app:srcCompat="@drawable/ic_take_tour"
+			android:layout_marginTop="20dp"/>
+	</LinearLayout>
+
+</LinearLayout>

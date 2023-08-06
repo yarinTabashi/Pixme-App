@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center_horizontal">
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="30dp"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="10dp"
+			android:text="Create New Event"/>
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			app:errorEnabled="true">
+		
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="20dp"
+			android:id="@+id/namedt"
+			android:hint="Give a name four the event" />
+		</android.support.design.widget.TextInputLayout>
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:errorEnabled="true">
+		
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="20dp"
+			android:id="@+id/descdt"
+			android:hint="Description for the event" />
+		</android.support.design.widget.TextInputLayout>
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:errorEnabled="true">
+		
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="20dp"
+			android:id="@+id/eventtype"
+			android:hint="Event Type" />
+		</android.support.design.widget.TextInputLayout>
+
+		<CheckBox
+			android:text="Need Photographer!"
+			android:layout_marginTop="3dp"
+			android:textSize="20dp"
+			android:id="@+id/needphotogcbx"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<Button
+			android:layout_width="300dp"
+			android:layout_height="60dp"
+			android:text="Create!"
+			android:id="@+id/createbtn"
+			android:layout_marginTop="20dp"
+			android:layout_gravity="center_horizontal"/>
+	</LinearLayout>
+</LinearLayout>

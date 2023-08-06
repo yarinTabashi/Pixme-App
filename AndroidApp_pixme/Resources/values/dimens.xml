@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="gap_between_button_signupscreen">30dp</dimen>
+  <dimen name="tool_home_padding">17dp</dimen>
+</resources>

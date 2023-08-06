@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+
+    <item
+      android:icon="@drawable/profile_ic"/>
+    
+    <item
+      android:title="Home - Live Events"
+      android:icon="@drawable/live_icon"
+      android:id="@+id/navigation_home"/>    
+    
+    <item 
+      android:title="Upcoming Events"
+      android:icon="@drawable/events_icon"
+      android:id="@+id/navigation_upcoming_events"/>
+    
+    <item 
+      android:title="Create New Event"
+      android:icon="@drawable/add_icon"
+      android:id="@+id/navigation_create_new_event"/>
+
+    <item
+      android:title="My Friends"
+      android:icon="@drawable/my_friends_icon"
+      android:id="@+id/navigation_my_friends"/>
+
+    <item
+      android:title="Calendar Manager"
+      android:icon="@drawable/events_icon"
+      android:id="@+id/navigation_calendar_manager"/>
+
+    <item
+      android:title="Edit Profile"
+      android:icon="@drawable/edit_profile_icon"
+      android:id="@+id/navigation_edit_profile"/>    
+  </group>
+</menu>

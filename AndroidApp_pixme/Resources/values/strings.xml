@@ -1,0 +1,24 @@
+<resources>
+  <string name="app_name">Pixme</string>
+  <string name="login_here">Log In here</string>
+  <string name="reset_password">Reset Your Password</string>
+  <string name="reset_expalin_one">Enter your username, in order to your password will send to your email.</string>
+  <string name="remembered_password">Remembered the password?</string>
+  <string name="aleready_log_in">ALREADY HAVE AN ACCOUNT?LOG IN</string>
+  <string name="first_name">First Name</string>
+  <string name="last_name">Last Name</string>
+  <string name="username">Username</string>
+  <string name="emailaddress">Email Address</string>
+  <string name="email">Username</string>
+  <string name="password">Password</string>
+  <string name="c_password">Confirm Password</string>
+  <string name="forget_password">Forget Password?</string>
+  <string name="the_closet_event">The Closet Event</string>
+  <string name="edt_user_name">Edit User Name</string>
+  <string name="phone_number">Phone No.</string>
+  <string name="edt_phone_number">Edit Phone No.</string>
+  <string name="current_password">Current Password</string>
+  <string name="new_password">New Password</string>
+  <string name="my_events">My Events</string>
+  <string name="no_live_events_explain">Unfortunately, there are not events are currently occurring.</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorVioletLight"
+    android:fitsSystemWindows="true"
+    android:paddingTop="?attr/actionBarSize">
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Gallery"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp" />
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:id="@+id/pictures_gridview_all"
+            android:layout_weight="1"
+            android:numColumns="3"
+            tools:listitem="@layout/item_photo" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e729aaf9-abc1-4c2b-a8e8-a04b2bf361bf" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:57169/OhadWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="OhadWCFService.xsd" MetadataType="Schema" ID="41b0ee06-721b-4a8d-934d-a57cc630e8fc" SourceId="1" SourceUrl="http://localhost:57169/OhadWCFService.svc?xsd=xsd0" />
+    <MetadataFile FileName="OhadWCFService.wsdl" MetadataType="Wsdl" ID="88ae826f-ed99-4613-8e00-227c05ef4925" SourceId="1" SourceUrl="http://localhost:57169/OhadWCFService.svc?wsdl" />
+    <MetadataFile FileName="OhadWCFService1.xsd" MetadataType="Schema" ID="1e264236-ba36-4b55-8132-a4b9e40a23ca" SourceId="1" SourceUrl="http://localhost:57169/OhadWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="OhadWCFService2.xsd" MetadataType="Schema" ID="81b1f75a-3292-4454-b6b2-09ee43f59443" SourceId="1" SourceUrl="http://localhost:57169/OhadWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="OhadWCFService.disco" MetadataType="Disco" ID="dd418070-1e32-4908-9a8e-3c34831f4694" SourceId="1" SourceUrl="http://localhost:57169/OhadWCFService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

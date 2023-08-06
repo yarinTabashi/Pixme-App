@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BLFinalPro.Admin">
+    <Position X="13.5" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLFinalPro.Client">
+    <Position X="0.75" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>QQSgAkCBAEAIACgBADDAEAkEEABARAAIkIACgAACACI=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLFinalPro.Event">
+    <Position X="9.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ACYCIIAAAAAAIAEgAABEAAAAAgIAAACAgEAACgACAAA=</HashCode>
+      <FileName>Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLFinalPro.Photographer">
+    <Position X="5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>WQABFCAAhAFAQAwCAAJAhghCAAAgAggKyBMBKAACAAI=</HashCode>
+      <FileName>Photographer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLFinalPro.Picture">
+    <Position X="9.75" Y="6.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAACCAAAAAAAAAAGgAAAIAAAAAAARAIAAA=</HashCode>
+      <FileName>Picture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLFinalPro.SendingNotifications">
+    <Position X="13.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SendingNotifications.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
